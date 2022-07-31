@@ -23,23 +23,21 @@ public class AboutMeTest {
 	angilique.myGrade=3.75;
 	angilique.sex='F';
 	angilique.usCitizen=true;
-	
-	//call the method by object
 	angilique.aboutMe();
 	
+	//call the method by object
 	
-	AboutMe obj2 =new AboutMe();
-	obj2.name="Alex";
-	obj2.age= 40;
-	obj2.myApartmentRent=2500;
-	obj2.myYearlySalary= 10000;
-	obj2.myBankBalance=12346743l;
-	obj2.myHeight= 6.0f;
-	obj2.myGrade=2.75;
-	obj2.sex='F';
-	obj2.usCitizen=true;
-	obj2.aboutMe();
+	AboutMe obj = new AboutMe();
+	obj.name = "Alex";
+	obj.age=35;
+	obj.myApartmentRent=2500;
+	obj.myYearlySalary= 12000;
+	obj.myBankBalance = 12567347;
+	obj.myHeight = 6.0f;
+	obj.sex ='F';
+	obj.usCitizen=true;
+	obj.aboutMe();
 	
 	}
-
+	
 }
