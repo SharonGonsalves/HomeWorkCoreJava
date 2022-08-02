@@ -6,36 +6,31 @@
 package hw4JavaVariables;
 
 public class AboutMe {
-	
+
 // Variables,  methods(),  constructor 
 	public String name;// variable Declare
-	public byte age ;
-	public short myApartmentRent ;
-	public int myYearlySalary ;
-	public long myBankBalance ;
-	public float myHeight ;
-	public double myGrade ;
+	public byte age;
+	public short myApartmentRent;
+	public int myYearlySalary;
+	public long myBankBalance;
+	public float myHeight;
+	public double myGrade;
 	public char sex;
-	public boolean usCitizen ; 
+	public boolean usCitizen;
+
 // Constructor Declared
 	public AboutMe() {
-	System.out.println("This is all about us: ");
-	
-	}
-     // method implemented
-    public void aboutMe() {
-  System.out.println("My Name is:" + name + " \nMy Age:" + age + "\n MyApartmentRent " +  
-    myApartmentRent +"\nMyYearlySalary:" + myYearlySalary +"\nMyBankBalance:" + myBankBalance +"\nMy Height:"+ myHeight +"MyGrade:" + myGrade ); 
-	
-	
+		System.out.println("This is all about us: ");
+
 	}
 
-    }
+	// method implemented
+	public void aboutMe() {
+		System.out.println("My Name is:" + name + " \nMy Age:" + age + "\n MyApartmentRent " + myApartmentRent
+				+ "\nMyYearlySalary:" + myYearlySalary + "\nMyBankBalance:" + myBankBalance + "\nMy Height:" + myHeight
+				+ "MyGrade:" + myGrade);
 
+	}
 
-
-
-
-
-
+}
 
